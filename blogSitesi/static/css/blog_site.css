@@ -1,0 +1,95 @@
+h1 a {
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    text-decoration:none;
+}
+.content_container{
+    margin-left: 270px;
+}
+h1:hover{
+    color:green;
+    font-weight: 900;
+    background-color: white;
+    text-decoration:none;
+}
+.date {
+    float: right;
+    color: #828282;
+}
+.post {
+    margin-bottom: 70px;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 750px;
+    height: 0.5px;
+}
+.post h1 a, .post h1 a:visited,.post h1 a:hover{
+    text-decoration:none;
+    color: #000000;
+    font-weight: 1200;
+}
+.post a{
+    color: black;
+    font-family: 'Russo One';
+    font-size: bold;
+    text-decoration:none;
+}
+.post a:hover{
+    font-weight: 900;
+    background-color: white;
+    text-decoration:none;
+}h1 a {
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    text-decoration:none;
+}
+.content_container{
+    margin-left: 270px;
+}
+h1:hover{
+    color:green;
+    font-weight: 900;
+    background-color: white;
+    text-decoration:none;
+}
+.date {
+    float: right;
+    color: #828282;
+}
+.post {
+    margin-bottom: 70px;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 750px;
+    height: 0.5px;
+}
+.post h1 a, .post h1 a:visited,.post h1 a:hover{
+    text-decoration:none;
+    color: #000000;
+    font-weight: 1200;
+}
+.post a{
+    color: black;
+    font-family: 'Russo One';
+    font-size: bold;
+    text-decoration:none;
+}
+.post a:hover{
+    font-weight: 900;
+    background-color: white;
+    text-decoration:none;
+}

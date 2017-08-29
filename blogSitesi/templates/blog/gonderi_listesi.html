@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Bilgisayar Kavramlar</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+        <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+
+         <link rel="stylesheet" href="{% static 'css/blog_site.css' %}">
+
+        <body>
+
+
+            <div>
+                <h1><a href=""><img src="https://i.hizliresim.com/okvjO9.png">Bilgisayar Kavramları Blog Sayfası</a></h1>
+
+            </div>
+
+            <div class="content_container">
+                <div class="row">
+                    <div class="col-md-8">
+                        {% for gonderi in gonderiler %}
+                            <div class="post">
+
+                                <h1><a href="">{{ gonderi.baslik }}</a></h1>
+
+                                <p>{{ gonderi.icerik|linebreaks }}</p>
+
+                                <div class="date"> <p>Yayinlandi: {{ gonderi.y_tarihi }}</p></div>
+
+                                <a href="" class="tag"><p>{{ gonderi.tag|linebreaks }}</p></a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                   </div>
+            </div>           
+    </body>
+</html>
